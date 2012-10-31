@@ -1,0 +1,24 @@
+{
+  "name": "module-index",
+  "version": "1.0.0",
+  "description": "Includes all modules within it's directory as an export.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "~1.6.0",
+    "expect.js": "0.1.2"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": "",
+  "keywords": [
+    "module",
+    "index"
+  ],
+  "author": "John Wright",
+  "license": "BSD"
+}
