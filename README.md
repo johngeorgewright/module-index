@@ -3,6 +3,13 @@ module-index
 
 The module-index module will include all it's sibling modules and return them as an export.
 
+Installation
+------------
+
+```sh
+$ npm install module-index
+```
+
 Example
 -------
 
