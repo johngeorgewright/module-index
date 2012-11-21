@@ -14,7 +14,7 @@ module.exports = function(mod){
       // Find the file's module name by removing it's extension
       moduleName = path.basename(file, path.extname(file));
       // Require the module and add it to the exports object
-      mod.exports[moduleName] = require(dirname+'/'+moduleName);
+      mod.exports[moduleName] = require(path.join(dirname, moduleName));
     }
   }
 };
