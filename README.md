@@ -40,3 +40,11 @@ app.get('/welcome', controllers.welcome.index);
 app.get('/blogs', controllers.blog.list);
 // ...
 ```
+
+Infact... you can entirley skip out making a new file:
+
+```js
+// app/index.js
+var controllers = require('module-index')('./controller');
+```
+
