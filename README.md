@@ -1,6 +1,8 @@
 module-index
 ============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/johngeorgewright/module-index.svg)](https://greenkeeper.io/)
+
 The module-index module will include all it's sibling modules and return them as an export.
 
 Installation
